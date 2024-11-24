@@ -1,0 +1,130 @@
+/* Estios generales del index */
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#agregar-producto__container {
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  width: 100%;
+  padding: 20px 0px;
+
+  flex-direction: column;
+    align-items: center;
+}
+
+#productos__title{
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+}
+
+/* .button__agregar-producto{
+  position: absolute;
+  top: 30px;
+  right: 50%;
+} */
+
+#productos__cards__container{
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 20px;
+  padding: 20px 0px;
+  align-items: center;
+  width: 80%;
+  justify-content: center
+}
+
+/* 
+Estilos de la card */
+
+
+
+.producto__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 224px;
+  background-color: #5300c8;
+  border-radius: 8px;
+  border: 4px solid black;
+  width: 168px;
+  color: white;
+  padding: 12px;
+  overflow: hidden;
+
+}
+
+.producto__img{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+
+.producto__title{
+  font-size: 12px;
+  margin: 20px 0px 0px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  width: 100%;
+}
+
+.producto__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  & p{
+    margin: 0px;
+    font-size: 14px;
+  }
+  & .button__delete{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+
+  }
+}
+
+/* vista movil */
+@media (max-width:468px){
+  main{
+    padding: 0px 12px;
+  }
+  #agregar-producto__container{
+    height: 120px;
+  }
+  #productos__title{
+    font-size: 20px;
+  }
+
+  .button__agregar-producto{
+    top: 80px;
+    left: 0;
+  }
+
+  /* #productos__cards__container{
+    grid-template-columns: repeat(1, 200px);
+  } */
+} 
+
+/* vista tabled */
+
+/* @media (min-width:469px ) and (max-width:1038px){
+
+  .button__agregar-producto{
+    top: 80px;
+    left: 20;
+  }
+
+} */

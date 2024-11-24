@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "The Legend of Zelda: Tears of the Kingdom",
+      "precio": 69.99,
+      "imagen": "https://www.zeldaspalace.com/images/botw/logo_botw.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Elden Ring",
+      "precio": 59.99,
+      "imagen": "https://www.gamespot.com/a/uploads/scale_super/1816/18167535/4321332-shadow-of-the-erdtree-how-to-start-elden-ring-dlc-.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Grand Theft Auto V",
+      "precio": 29.99,
+      "imagen": "https://gmedia.playstation.com/is/image/SIEPDC/grand-theft-auto-5-hero-banner-desktop-01-ps5-en-04mar22?$1600px$"
+    },
+    {
+      "id": "4",
+      "titulo": "Minecraft",
+      "precio": 26.95,
+      "imagen": "https://store-images.s-microsoft.com/image/apps.16742.13850085746326678.06e2dc5c-7997-46e9-a8e6-0e48b57cb13b.0f7259c6-23ee-4cbd-b72e-fd728dc43929"
+    },
+    {
+      "id": "5",
+      "titulo": "Cyberpunk 2077",
+      "precio": 49.99,
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Hollow Knight",
+      "precio": 14.99,
+      "imagen": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/03/hollow-knight-portada.jpg?tf=384x"
+    },
+    {
+      "id": "9",
+      "titulo": "Call of Duty: Modern Warfare II",
+      "precio": 69.99,
+      "imagen": "https://www.semana.com/resizer/v2/SPTYC6GPDNB5BCJKSAZZZ4G7GA.jpg?auth=bc501c940d579cef39e62ec1a2b57502c2d112eb6cdcc3a40c0c2102a5e7a756&smart=true&quality=75&width=1280&height=720"
+    },
+    {
+      "id": "10",
+      "titulo": "Resident Evil 4 Remake",
+      "precio": 59.99,
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/BiS5QP6h4506JHyJlZlVzK9D.jpg"
+    }
+  ]
+}

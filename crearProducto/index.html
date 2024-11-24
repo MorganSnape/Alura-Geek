@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="stylesCrearProducto.css" />
+    <link rel="stylesheet" href="../globalStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="nav__content">
+      <nav class="nav">
+        <img
+          class="nav__image"
+          src="../images/image 1.png"
+          alt="Tres corazones"
+        />
+        <p class="nav__text">AluraGeek</p>
+      </nav>
+    </header>
+
+    <main>
+      <section id="agregar-producto__container">
+        <header id="agregar-producto__header">
+          <h2>AGREGAR PRODUCTO</h2>
+          <button id="retroceder" type="button"> < </button>
+        </header>
+
+        <form id="input__container" data-formulario >
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre del producto"
+            data-titulo
+            required
+            class="input"
+          />
+          <input
+            type="number"
+            id="precio"
+            name="precio"
+            placeholder="Precio del producto"
+            data-precio
+            required
+            class="input"
+          />
+          <input
+            type="text"
+            id="imagen"
+            name="imagen"
+            placeholder="Imagen del producto"
+            data-imagen
+            required
+            class="input"
+          />
+
+          <div id="buttons__container">
+            <button class="button button__enviar" type="submit">Enviar</button>
+            <button class="button button__limpiar" type="reset">Limpiar</button>
+          </div>
+
+        </form>
+      </section>
+    </main>
+
+    <footer id="pie--pagina">
+      <p>DESARROLLADO POR GABRIELA FERRER</p>
+    </footer>
+
+    <script src="/js/crearProducto.js" type="module"></script>
+  </body>
+</html>

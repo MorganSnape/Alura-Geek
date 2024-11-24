@@ -1,0 +1,86 @@
+body {
+  background-color: #f9f4ff;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  background-color: #5300c8;
+  height: 80px;
+}
+
+.nav__image {
+  height: 40px;
+}
+
+.nav__text {
+  font-size: 16px;
+  color: white;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5300c8;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px 40px;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  border: solid 2px black;
+  transition: background-color 0.5s, transform 0.2s;
+  font-family: inherit, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+#pie--pagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5300c8;
+  color: white;
+
+  & p {
+    font-size: 12px;
+  }
+}
+
+/* vista movil */
+@media (min-width: 0px) and (max-width:468px) {
+  .nav{
+    gap: 8px;
+    height: 60px;
+  }
+
+  .nav__image {
+    height: 28px;
+  }
+
+  .nav__text {
+    font-size: 12px;
+  }
+
+  #pie--pagina p {
+    font-size: 8px;
+
+  }
+
+  .button{
+    width: 100%;
+    padding: 24px 0px;
+  }
+
+}

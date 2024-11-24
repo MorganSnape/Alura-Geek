@@ -1,0 +1,84 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+#agregar-producto__container{
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+  border: 1px rgb(117, 112, 112) solid;
+  border-radius: 20px;
+  width: 40%;
+  padding: 40px;
+  height: 50vh;
+
+  position: relative;
+}
+
+#retroceder{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: black;
+  cursor: pointer;
+}
+
+input{
+  border: #5d04d9 solid 1px;
+  border-radius: 8px;
+  padding: 8px 20px;
+  height: 24px;
+  font-size: 16px;
+  width: 50%;
+}
+
+#input__container{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+#agregar-producto__header{
+  width: 300px;
+  text-align: center;
+}
+
+#buttons__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  gap: 8px;
+  padding-top: 36px;
+}
+
+.button{
+ width: 40%;
+}
+
+/* Vista Movil px 426*/
+
+@media (max-width:468px){
+  #agregar-producto__container{
+    width: 70%
+  }
+
+  input{
+    width: 80%;
+  }
+
+  #buttons__container{
+    width: 100%;
+  }
+}
